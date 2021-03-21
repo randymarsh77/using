@@ -17,5 +17,6 @@ let package = Package(
 			name: "Using",
 			dependencies: ["IDisposable"]
 		),
+		.testTarget(name: "UsingTests", dependencies: ["Using"]),
 	]
 )
